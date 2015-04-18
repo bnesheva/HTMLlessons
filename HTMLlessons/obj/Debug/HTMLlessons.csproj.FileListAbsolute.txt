@@ -1,0 +1,6 @@
+E:\HTMLlessons\HTMLlessons\bin\HTMLlessons.dll.config
+E:\HTMLlessons\HTMLlessons\bin\HTMLlessons.dll
+E:\HTMLlessons\HTMLlessons\bin\HTMLlessons.pdb
+E:\HTMLlessons\HTMLlessons\obj\Debug\HTMLlessons.csprojResolveAssemblyReference.cache
+E:\HTMLlessons\HTMLlessons\obj\Debug\HTMLlessons.dll
+E:\HTMLlessons\HTMLlessons\obj\Debug\HTMLlessons.pdb
