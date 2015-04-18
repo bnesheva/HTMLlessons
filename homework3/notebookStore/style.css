@@ -1,0 +1,49 @@
+﻿body {
+    font-size: 18px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+.nested {
+    border: 2px solid #111;
+    margin: 10px;
+    width: 98%;
+}
+.main {
+    padding: 0;
+    border: 2px solid #111;
+    width: 1000px;
+}
+fieldset {
+    margin: 5px;
+}
+td:nth-child(2) fieldset {
+    margin-right: 15px;
+}
+fieldset table {
+    border: none;
+}
+thead th {
+    padding: 20px;
+    font-size: 1.5em;
+}
+thead tr {
+    border: 2px solid #111;
+}
+thead a {
+   color: dodgerblue; 
+}
+td p {
+    margin: 10px 10px 30px 40px;;
+    font-size: 22px;
+}
+input[type=text] {
+    border: none;
+    margin-left: 20px;
+    font-size: 22px;
+    text-align: right;
+}
+input[type=range] {
+    width: 70%;
+}

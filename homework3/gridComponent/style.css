@@ -1,0 +1,94 @@
+﻿body{
+	font-size: 13px;
+	color: #333;
+	font-family: Arial, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	width: 880px;
+}
+table, td {
+	border: 1px solid;
+}
+td {
+	padding: 5px 10px;
+}
+thead td, tfoot td {
+	border-color: #a4abb2;
+	background: #e7e9eb;
+	background: -moz-linear-gradient(top,  #e7e9eb 0%, #d9dce0 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e7e9eb), color-stop(100%,#d9dce0));
+	background: -webkit-linear-gradient(top,  #e7e9eb 0%,#d9dce0 100%);
+	background: -o-linear-gradient(top,  #e7e9eb 0%,#d9dce0 100%);
+	background: -ms-linear-gradient(top,  #e7e9eb 0%,#d9dce0 100%);
+	background: linear-gradient(to bottom,  #e7e9eb 0%,#d9dce0 100%);
+
+}
+tbody td {
+	border-color: #d0d7e5;
+}
+.flat_bgr td {
+	background: #dfe3e8;
+	padding-bottom: 8px;
+}
+button {
+	background: #f0f1f3;
+	background: -moz-linear-gradient(top,  #f0f1f3 0%, #dbdde1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f1f3), color-stop(100%,#dbdde1));
+	background: -webkit-linear-gradient(top,  #f0f1f3 0%,#dbdde1 100%);
+	background: -o-linear-gradient(top,  #f0f1f3 0%,#dbdde1 100%);
+	background: -ms-linear-gradient(top,  #f0f1f3 0%,#dbdde1 100%);
+	background: linear-gradient(to bottom,  #f0f1f3 0%,#dbdde1 100%);
+	border-radius: 3px;
+	border: 1px solid #a4abb2;
+	padding: 0;
+	line-height: 1em;
+	vertical-align: bottom;
+}
+button span {
+	background: url(icons.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+.funnel span {
+	background-position: 1px 4px;
+}
+.back_end span {
+	background-position: -39px 3px;
+}
+.back span {
+	background-position: -74px 3px;
+}
+.next span {
+	background-position: -107px 3px;
+}
+.next_end span {
+	background-position: -142px 3px;
+}
+tfoot td
+tfoot td:first-child {
+	border-right: none;
+}
+tfoot td:nth-child(2) {
+	border-right: none;
+	border-left: none;
+}
+tfoot td:last-child {
+	border-left: none;
+}
+.pagination a {
+	display: inline-block;
+	padding: 2px 5px;
+	color: #333;
+	text-decoration: none;
+}
+.pagination a:hover, .pagination a:focus, .pagination a:active{
+	border: 1px solid #c95c05;
+	border-radius: 3px;
+	padding: 1px 4px;
+}
+.summary {
+	text-align: right;
+}
