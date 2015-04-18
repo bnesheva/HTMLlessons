@@ -1,0 +1,30 @@
+﻿table {
+    width:400px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #f8f8f8;
+    padding: 20px;
+    margin: auto;
+}
+input, button {
+    font-size: 2em;
+    font-weight: bold;
+    width:100%;
+    padding: 10px;
+    border-radius: 3px;
+}
+input {
+    border-color: #ccc;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    color: #111;
+}
+button {
+    background-color: #ebebeb;
+    border: 1px solid #111;
+}
+.action {
+    background-color:#6badf6;
+    border-color: #5596dd;
+    color: #fff;
+}

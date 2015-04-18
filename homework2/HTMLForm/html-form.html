@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>HTML Form</title>
+</head>
+<body>
+    <form role="form">
+        <label for="name">Member name : </label>
+        <!--I played with HTML5 validation for fun - try it if you havent yet - its great - no coding, just simple reg. expression-->
+        <input type="text" id="name" pattern="[A-Za-z\s]*" title="Use lathin letters and spaces" required />
+        <strong>*req</strong>
+        <br />
+        <label for="mail">Email : </label>
+        <input type="email" id="mail" required  />
+        <strong>*req</strong>
+        <br />
+        <label for="school">School : </label>
+        <input type="text" id="school" required />
+        <strong>*req</strong>
+        <br />
+        <input type="image" alt="Submit" src="submit.png" />
+    </form>
+</body>
+</html>
