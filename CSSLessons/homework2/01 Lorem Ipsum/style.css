@@ -1,0 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(http://fonts.googleapis.com/css?family=Great+Vibes);
+
+body {
+	color: #0094ff;
+	font-size: 16px;
+	font-family: 'Consolas', 'Inconsolata', sans-serif;
+	font-weight: 400;
+}
+body:first-line {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 2em;
+}
+body:first-letter {
+	font-family: 'Edwardian Script ITC', 'Great Vibes', cursive;
+	font-size: 28px;
+}

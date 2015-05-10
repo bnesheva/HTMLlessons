@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="calculator">
+        <div class="bar">
+            <h1>Calculator</h1>
+            <nav>
+                <button class="minimize"></button>
+                <button class="fullscreen"></button>
+                <button class="close"></button>
+            </nav>
+        </div>
+        <div class="main_holder">
+            <nav>
+                <ul>
+                    <li><a href="#">View</a></li>
+                    <li><a href="#">Edit</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </nav>
+            <div class="result">
+                <input type="text" readonly value="8854455" />
+            </div>
+            <div class="number-field">
+                <div class="holder">
+                    <div>0000<span>63</span></div>
+                    <div>0000</div>
+                    <div>0000</div>
+                    <div>0000</div>
+                    <div>0000<span>47</span></div>
+                    <div>0000</div>
+                    <div>0000</div>
+                    <div>0000<span class="align_right">32</span></div>
+                    <div>0000<span>31</span></div>
+                    <div>0000</div>
+                    <div>1000</div>
+                    <div>0111</div>
+                    <div>0001<span>15</span></div>
+                    <div>1011</div>
+                    <div>1011</div>
+                    <div>0111<span class="align_right">0</span></div>
+
+                </div>
+            </div>
+            <div class="calc_buttons">
+                <div class="radios">
+                    <div class="holder">
+                        <div>
+                            <input type="radio" name="group1" id="radio1" />
+                            <label for="radio1">Hex</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="group1" id="radio2" checked />
+                            <label for="radio2">Dec</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="group1" id="radio3" />
+                            <label for="radio3">Oct</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="group1" id="radio4" />
+                            <label for="radio4">Bin</label>
+                        </div>
+                    </div>
+                    <div class="holder">
+                        <div>
+                            <input type="radio" name="group2" id="radio5" checked />
+                            <label for="radio5">Qword</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="group2" id="radio6" />
+                            <label for="radio6">Dword</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="group2" id="radio7" />
+                            <label for="radio7">Word</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="group2" id="radio8" />
+                                <label for="radio8">Byte</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="flat"><button value=""></button></div>
+                        <div><button value="Mod">Mod</button></div>
+                        <div class="flat"><button value="A" class="letter">A</button></div>
+                        <div><button value="MC" class="framed">MC</button></div>
+                        <div><button value="MR" class="framed">MR</button></div>
+                        <div><button value="MS" class="framed">MS</button></div>
+                        <div><button value="M+" class="framed">M+</button></div>
+                        <div><button value="M-" class="framed">M-</button></div>
+                        <div><button value="(">(</button></div>
+                        <div><button value=")">)</button></div>
+                        <div class="flat"><button value="B" class="letter">B</button></div>
+                        <div><button value=""  class="bigger">&#8592;</button></div>
+                        <div><button value="CE">CE</button></div>
+                        <div><button value="C">C</button></div>
+                        <div><button value="+-">&#177;</button></div>
+                        <div class="flat"><button value="sqrt">&#8730;</button></div>
+                        <div><button value="RoL">RoL</button></div>
+                        <div><button value="RoR">RoR</button></div>
+                        <div class="flat"><button value="C" class="letter">C</button></div>
+                        <div><button value="7" class="num">7</button></div>
+                        <div><button value="8" class="num">8</button></div>
+                        <div><button value="9" class="num">9</button></div>
+                        <div><button value="/">/</button></div>
+                        <div class="flat"><button value="%">%</button></div>
+                        <div><button value="Or">Or</button></div>
+                        <div><button value="Xor">Xor</button></div>
+                        <div class="flat"><button value="D" class="letter">D</button></div>
+                        <div><button value="4" class="num">4</button></div>
+                        <div><button value="5" class="num">5</button></div>
+                        <div><button value="6" class="num">6</button></div>
+                        <div><button value="*" class="bigger star">*</button></div>
+                        <div class="flat"><button value="1/x">1/x</button></div>
+                        <div><button value="Lsh">Lsh</button></div>
+                        <div><button value="Rsh">Rsh</button></div>
+                        <div class="flat"><button value="E" class="letter">E</button></div>
+                        <div><button value="1" class="num">1</button></div>
+                        <div><button value="2" class="num">2</button></div>
+                        <div><button value="3" class="num">3</button></div>
+                        <div><button value="-">-</button></div>
+                        <div class="rowspan2"><button value="=">=</button></div>
+                        <div class="rowspanned"><button value="Not">Not</button></div>
+                        <div class="rowspanned"><button value="And">And</button></div>
+                        <div class="rowspanned flat"><button value="F" class="letter">F</button></div>
+                        <div class="rowspanned colspan2"><button value="0" class="num">0</button></div>
+                        <div class="rowspanned flat"><button value=".">.</button></div>
+                        <div class="rowspanned"><button value="+">+</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

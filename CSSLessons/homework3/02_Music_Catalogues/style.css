@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+section {
+	width: 421px;
+	background-color: #EDEDED;
+	border-radius: 9px;
+	overflow: hidden;
+	padding: 24px 9px 20px 12px;
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: normal;
+    margin:  0;
+}
+
+article {
+    border: 1px solid #333;
+    background: #fff;
+    padding: 15px 17px;
+    margin-top: 38px;
+    overflow: hidden;
+}
+
+img {
+    border: 1px solid #333;
+    float: left;
+    margin-right: 15px;
+}
+
+p {
+    float: left;
+    margin: 0;
+    height: 62px;
+    width: 212px;
+    font-size: 13px;
+}
+
+.actions {
+    float:  left;
+    text-align: right;
+    width: 213px;
+}
+
+button {
+    padding: 4px 19px 2px;
+    font-size: 13px;
+	background: url(images/buttonbgr.png) no-repeat left top;
+	
+    border-bottom: 2px solid #660000;
+	
+    border-right: 2px solid #660000;
+	border-top: none;
+	border-left: none;
+    color: #fff;
+    font-weight: normal;
+}
+article:last-child {
+	margin-top: 35px;
+	padding-bottom: 10px;
+}
+
+article:last-child .actions {
+	margin-top: 16px;
+}
